@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,21 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TabbedPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page1 : ContentPage
+	public partial class Page9 : ContentPage
 	{
-		Label lbl, lbl2;
-		public Page1()
+		public Page9()
 		{
-			lbl = new Label()
-			{
-				Text = "Vana linn"
-				
-			};
-			lbl2 = new Label()
-			{
-				Text = "Raekoja plats"
-			};
-			
+			InitializeComponent();
 		}
 	}
 }
