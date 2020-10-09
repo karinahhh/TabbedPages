@@ -7,9 +7,10 @@
             mc:Ignorable="d"
             x:Class="TabbedPages.MainPage">
     <TabbedPage.Children>
-        <local:Page1/>
-        <local:Page2/>
-        <local:Page3/>
+        <local:TabbedPage1/>
+        <local:TabbedPage2/>
+        <local:TabbedPage3/>
+        <local:TabbedPage4/>
     </TabbedPage.Children>
     
 </TabbedPage>

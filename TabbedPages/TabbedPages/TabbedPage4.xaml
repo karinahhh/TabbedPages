@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TabbedPages;assembly=TabbedPages"
+            x:Class="TabbedPages.TabbedPage4"
+            Title="Pohja-Ameerika">
+    <TabbedPage.Children>
+        <local:Page10/>
+        <local:Page11/>
+        <local:Page12/>
+    </TabbedPage.Children>
+</TabbedPage>

@@ -13,19 +13,31 @@ namespace TabbedPages
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Page1 : ContentPage
 	{
-		Label lbl, lbl2;
 		public Page1()
 		{
-			lbl = new Label()
-			{
-				Text = "Vana linn"
-				
-			};
-			lbl2 = new Label()
-			{
-				Text = "Raekoja plats"
-			};
-			
-		}
-	}
+			InitializeComponent();
+            /*
+                        lbl = new Label()
+                        {
+                            Text = "Berliini müür",
+                            TextColor = Color.Black,
+                            FontSize = 15
+                        };
+                        a = new Frame()
+                        {
+                            BackgroundColor = Color.LightBlue,
+                            Content = lbl,
+                            CornerRadius = 10,
+                            Margin = new Thickness(150, 0, 150, 0)
+                        };
+                        StackLayout stackLayout = new StackLayout()
+                        {
+                            Children = { lbl }
+                        };
+                        stackLayout.Orientation = StackOrientation.Vertical;
+
+                        https://www.germany.ee/10-koige-huvitavamat-vaatamisvaarsust-saksamaal/
+            */
+        }
+    }
 }

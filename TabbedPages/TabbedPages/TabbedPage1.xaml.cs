@@ -10,12 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace TabbedPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page2 : ContentPage
+	public partial class TabbedPage1 : TabbedPage
 	{
-		public Page2()
+		public TabbedPage1()
 		{
+			Label lbl;
 			InitializeComponent();
-			//https://www.arcgis.com/apps/MapJournal/index.html?appid=619376a0229a4c45820b79c2e8f55e90&webmap=bec2e32e91474227ae2d0701a5241c6e
+			lbl = new Label
+			{
+				Text = "Kus saab puhata Euroopas",
+				FontSize=30
+			};
+
+
 		}
 	}
 }
