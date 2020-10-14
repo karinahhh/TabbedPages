@@ -16,6 +16,17 @@ namespace TabbedPages
 		public Page1()
 		{
 			InitializeComponent();
+            var tap = new TapGestureRecognizer();
+            saks.GestureRecognizers.Add(tap);
+			tap.Tapped += Tap_Tapped;
+
+            var tap2 = new TapGestureRecognizer();
+            saks2.GestureRecognizers.Add(tap2);
+			tap2.Tapped += Tap2_Tapped;
+
+            var tap3 = new TapGestureRecognizer();
+            saks3.GestureRecognizers.Add(tap3);
+			tap3.Tapped += Tap3_Tapped;
             /*
                         lbl = new Label()
                         {
@@ -39,5 +50,24 @@ namespace TabbedPages
                         https://www.germany.ee/10-koige-huvitavamat-vaatamisvaarsust-saksamaal/
             */
         }
-    }
+
+		private void Tap3_Tapped(object sender, EventArgs e)
+		{
+            saks3 = sender as Frame;
+            DisplayAlert("Schwarzwald ehk 'Mustmets'", "Schwarzwald ehk “must mets” on oma sügavate tumedate metsadega üks kõige huvitavamaid paiku Euroopas. See maagiline mets asub Saksamaa edelaosas ning ulatub lausa 160 kilomeetri kaugusele.", "Aitäh");
+
+        }
+
+        private void Tap2_Tapped(object sender, EventArgs e)
+		{
+            saks2 = sender as Frame;
+            DisplayAlert("Brandenburgi värav", "Muljetavaldav 26 meetri kõrgune värav ehitati omal ajal kuningas Frederick William II auks.", "Aitäh");
+        }
+
+		private void Tap_Tapped(object sender, EventArgs e)
+		{
+            saks = sender as Frame;
+            DisplayAlert ("Berliini müür", "Berliini müür ei pruugi olla küll piltilus paik, kuid kes külastab Berliini, peaks seda kindlasti nägema koha ajaloolisuse tõttu.", "Aitäh");
+		}
+	}
 }

@@ -5,19 +5,19 @@
              Title="Itaalia">
     <ContentPage.Content>
         <StackLayout>
-            <Frame x:Name="prants" BackgroundColor="#F4A460">
+            <Frame x:Name="ital" BackgroundColor="#F4A460">
                 <Label Text="Colosseum"  
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
             </Frame>
-            <Frame x:Name="prants2" BackgroundColor="#CD853F">
+            <Frame x:Name="ital2" BackgroundColor="#CD853F">
                 <Label Text="Veneetsia kanalid"  
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
             </Frame>
-            <Frame x:Name="prants3" BackgroundColor="#A0522D">
+            <Frame x:Name="ital3" BackgroundColor="#A0522D">
                 <Label Text="Pompeie"  
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"

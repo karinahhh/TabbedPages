@@ -1,12 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TabbedPages.Page9">
+             x:Class="TabbedPages.Page9"
+             Title="Kuuba">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame x:Name="kuuba" BackgroundColor="#00994d">
+                <Label Text="Vana Havana"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="kuuba2" BackgroundColor="#006633">
+                <Label Text="Varadero"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="kuuba3" BackgroundColor="#004d26">
+                <Label Text="Trinidad"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

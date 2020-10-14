@@ -3,7 +3,7 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:TabbedPages;assembly=TabbedPages"
             x:Class="TabbedPages.TabbedPage4"
-            Title="Pohja-Ameerika">
+            Title="Aasia">
     <TabbedPage.Children>
         <local:Page10/>
         <local:Page11/>

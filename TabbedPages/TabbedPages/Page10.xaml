@@ -1,12 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TabbedPages.Page10">
+             x:Class="TabbedPages.Page10"
+             Title="Jaapan">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame x:Name="jap" BackgroundColor="#ff704d">
+                <Label Text="Fuji mägi"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="jap2" BackgroundColor="#ff3300">
+                <Label Text="Imperial Tokyo"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="jap3" BackgroundColor="#b32400">
+                <Label Text="Hiroshima rahu mälestuspark"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

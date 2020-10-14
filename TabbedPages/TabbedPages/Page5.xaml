@@ -1,12 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TabbedPages.Page5">
+             x:Class="TabbedPages.Page5"
+             Title="Argentina">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame x:Name="arg" BackgroundColor="#ffff33">
+                <Label Text="Perito Moreno Glacier"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="arg2" BackgroundColor="#e6e600">
+                <Label Text="Buenos Aires: Barriose linn"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="arg3" BackgroundColor="#999900">
+                <Label Text="Ushuaia"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,12 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TabbedPages.Page12">
+             x:Class="TabbedPages.Page12"
+             Title="Hiina">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame x:Name="hin" BackgroundColor="#ff5500">
+                <Label Text="Toimetaja valib hiina müüri"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="hin2" BackgroundColor="#cc4400">
+                <Label Text="Keelatud linn ja kuninglik palee Pekingis"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="hin3" BackgroundColor="#993300">
+                <Label Text="Redaktori valik Terrakota armee"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

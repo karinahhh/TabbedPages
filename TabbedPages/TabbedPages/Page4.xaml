@@ -2,12 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Page4"
-             Title="-">
+             Title="Brasiilia">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Kus saab puhata Pohja-Ameerikas"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame x:Name="bras" BackgroundColor="#d580ff">
+                <Label Text="Iguazu joad"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="bras2" BackgroundColor="#c44dff">
+                <Label Text="Lunastaja Kristuse kuju"  
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
+            <Frame x:Name="bras3" BackgroundColor="#8800cc">
+                <Label Text="Sukrupeamägi"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Large"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
