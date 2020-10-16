@@ -2,23 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Page7"
-             Title="Kanada">
+             Title="Jamaica">
     <ContentPage.Content>
         <StackLayout>
-            <Frame x:Name="kan" BackgroundColor="#59b300">
-                <Label Text="Niagara kosk"  
+            <Frame x:Name="jam" BackgroundColor="#d65cad">
+                <Label Text="Negrili rand ja Negri liinid"  
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
             </Frame>
-            <Frame x:Name="kan2" BackgroundColor="#408000">
-                <Label Text="Banffi rahvuspark"  
+            <Frame x:Name="jam2" BackgroundColor="#cc3399">
+                <Label Text="Rafting Martha Brae jõgi"  
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
             </Frame>
-            <Frame x:Name="kan3" BackgroundColor="#264d00">
-                <Label Text="Toronto CN-torn"  
+            <Frame x:Name="jam3" BackgroundColor="#8f246b">
+                <Label Text="Dunni jõe kallas"  
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>

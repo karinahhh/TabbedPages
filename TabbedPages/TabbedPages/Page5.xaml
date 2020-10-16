@@ -2,23 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Page5"
-             Title="Argentina">
+             Title="Gröönimaa">
     <ContentPage.Content>
         <StackLayout>
-            <Frame x:Name="arg" BackgroundColor="#ffff33">
-                <Label Text="Perito Moreno Glacier"  
+            <Frame x:Name="groo" BackgroundColor="#00994d">
+                <Label Text="Gröönimaa rahvusmuuseum "  
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
             </Frame>
-            <Frame x:Name="arg2" BackgroundColor="#e6e600">
-                <Label Text="Buenos Aires: Barriose linn"  
+            <Frame x:Name="groo2" BackgroundColor="#006633">
+                <Label Text="Uunartoqi kuumaveeallikad"  
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
             </Frame>
-            <Frame x:Name="arg3" BackgroundColor="#999900">
-                <Label Text="Ushuaia"  
+            <Frame x:Name="groo3" BackgroundColor="#004d26">
+                <Label Text="Qaqortoqi muuseum"  
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
                        FontSize="Large"/>
